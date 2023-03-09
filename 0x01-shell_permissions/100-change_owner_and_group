@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -depth -exec chown vincent {} \; -exec chgrp staff {} \;
+echo "Change owner and group of all files and directories:"; find . -type f -exec chown vincent '{}' \; -exec chgrp staff '{}' \; -o -type d -exec chown vincent '{}' \; -exec chgrp staff '{}' \;
