@@ -1,3 +1,2 @@
-#!/bin/bash
-echo "0 string SCHOOL" > school.mgc 
-sudo mv school.mgc /usr/share/file/magic/
+O string SCHOOL School data
+!:mime School
